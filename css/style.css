@@ -1,9 +1,7 @@
-/* General reset */
 html {
     scroll-behavior: smooth;
 }
 
-/* General reset */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -88,14 +86,11 @@ body {
 
 
 
-
-
-
 /* Hero Section */
 .hero {
     position: relative;
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1530655937400-7f00928c51e1?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover; /* Replace 'hero.jpg' with your image */
+    background: url('https://images.unsplash.com/photo-1530655937400-7f00928c51e1?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover; 
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -105,7 +100,7 @@ body {
 
 .hero-content {
     max-width: 600px;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    background: rgba(0, 0, 0, 0.6); 
     padding: 20px;
     border-radius: 10px;
 }
@@ -123,7 +118,7 @@ body {
 }
 
 .btn-get-started {
-    background-color: #2a8a3e; /* Green */
+    background-color: #2a8a3e; 
     color: #ffffff;
     padding: 12px 24px;
     font-size: 18px;
@@ -133,7 +128,7 @@ body {
 }
 
 .btn-get-started:hover {
-    background-color: #45a855; /* Lighter green */
+    background-color: #45a855; 
 }
 
 
@@ -141,10 +136,10 @@ body {
 
 
 
-/* Enhanced About Section */
+/* About Section */
 .about {
     padding: 60px 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f9f9f9; 
     color: #333;
 }
 
@@ -168,10 +163,10 @@ body {
 
 .about-text h2 {
     font-size: 36px;
-    color: #2a8a3e; /* Green */
+    color: #2a8a3e; 
     margin-bottom: 15px;
     text-align: center;
-    border-bottom: 3px solid #2a8a3e; /* Add an underline for the heading */
+    border-bottom: 3px solid #2a8a3e; 
     display: inline-block;
 }
 
@@ -228,6 +223,7 @@ body {
 
 
 
+
 /* Footer Styles */
 .footer {
     background-color: #2a8a3e; /* Green */
@@ -257,7 +253,7 @@ body {
 .footer-left p {
     font-size: 14px;
     margin: 0;
-    color: #d4edda; /* Light green */
+    color: #d4edda; 
 }
 
 .footer-right {
@@ -284,7 +280,7 @@ body {
 }
 
 .social-icon:hover {
-    color: #d4edda; /* Light green */
+    color: #d4edda; 
 }
 
 .footer-bottom {
